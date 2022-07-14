@@ -10,3 +10,19 @@
   box-sizing: border-box;
   font-family: var(--font);
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu span {
+  justify-content: flex-end;
+  background-color: black;
+  display: block;
+}
+
+.header__links {
+  justify-content: center;
+  align-items: center;
+}
