@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 
+/*add CSS variables in 'root' scope*/
 :root {
   --font: "Public Sans", sans-serif;
 }
 
+/*add reset styles, border, and font properties to all elements*/
 * {
   margin: 0;
   padding: 0;
@@ -12,18 +14,21 @@
   border: 1px solid red;
 }
 
+/*add styles to nav tag and nav bar*/
 nav {
   display: flex;
   justify-content: space-between;
   padding: 1em;
 }
 
+/*targetting anchor links in the header menu*/
 .header__menu span {
   justify-content: flex-end;
   background-color: black;
   display: block;
 }
 
+/*add flex display to the header links*/
 .header__links {
   display: flex;
   justify-content: center;
